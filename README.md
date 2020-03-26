@@ -8,7 +8,7 @@
 -----
 ## Tips Learned
 - make sure to always set a negative test first to make sure you're not getting FALSE POSITIVES
-- 
+- reminder to check whether test is inclusive or non-inclusive
 
 -----
 ## If Continued, Would Follow Up On
