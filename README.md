@@ -13,4 +13,3 @@
 -----
 ## If Continued, Would Follow Up On
 - functions that are passed functions (what does that mean for scope, parameters, execution etc.)
-- 

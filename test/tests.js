@@ -1,26 +1,33 @@
 
 const test = QUnit.test;
 
+//Functions ------------------------------------------
+//Function takes in x and y and returns them added together
 function add(x, y) {
     return x + y;
 }
 
+//Function takes in x and y and returns y subtracted from x
 function subtract (x, y) {
     return x - y;
 }
 
+//Function takes in x and y and returns x times y
 function multiply (x, y) {
     return x * y;
 }
 
+//Function takes in x and y and returns x divided by y
 function divide (x, y) {
     return x / y;
 }
 
+//Function takes in x and checks if it is divisible by 2, returns true if it is and false if not
 function isEven (x) {
     return x % 2 === 0;
 }
 
+//Example helper function takes upTo as a limit, and pushes each number starting at 1 up to that number
 function getNumbers(upTo) {
     const numbers = [];
     for(let i = 1; i <= upTo; i++) {
@@ -29,6 +36,7 @@ function getNumbers(upTo) {
     return numbers;
 }
 
+//Function that takes upTo as a limit, and pushes a number after it is checked if it is even
 function getEvenNumbers(upTo) {
     const numbers = [];
     for(let i = 1; i <= upTo; i++) {
@@ -40,6 +48,7 @@ function getEvenNumbers(upTo) {
     return numbers;
 }
 
+//Function that takes upTo as a limit, replaces some values on conditions below and adds them to the array
 function getFizzBuzzNumbers(upTo) {
     const numbers = [];
 
@@ -57,6 +66,9 @@ function getFizzBuzzNumbers(upTo) {
     return numbers;
 }
 
+/*-------------------------------------------------------------------
+Tests in Order of Github List
+*/
 test('Addition test 1', function(assert) {
     //Arrange
     // Set up your parameters and expectations
